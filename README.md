@@ -1,5 +1,6 @@
 # 🛠️ Paper Dev Toolkit
 
+[![CI Build](https://github.com/croxln/paper-dev-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/croxln/paper-dev-toolkit/actions/workflows/ci.yml)
 [![Java 21+](https://img.shields.io/badge/Java-21%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://adoptium.net/)
 [![PaperMC](https://img.shields.io/badge/PaperMC-1.21.4-1A1A1A?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
 [![Leaf / Folia](https://img.shields.io/badge/Leaf%20%2F%20Folia-Compatible-3B82F6?style=for-the-badge)](https://github.com/PaperMC/Folia)
