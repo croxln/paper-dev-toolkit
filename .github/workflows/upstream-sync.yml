@@ -2,8 +2,10 @@ name: Upstream Compatibility Sync
 
 on:
   schedule:
-    # Runs daily at 20:15 UTC (23:15 TSİ - right before midnight)
-    - cron: '15 20 * * *'
+    # Runs daily at 18:00 UTC (21:00 TSİ) and fallback at 20:00 UTC (23:00 TSİ)
+    # GitHub cron queues can have up to 45m delay, running at 21:00 TSİ ensures early green squares
+    - cron: '0 18 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 concurrency:
